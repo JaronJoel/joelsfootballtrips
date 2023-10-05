@@ -1,0 +1,107 @@
+* {
+    margin: 0em;
+    padding: 0em;
+}
+
+.index article h1{
+    margin: 10em;
+    padding: 10em;
+}
+.index main img{
+    width: 30em;
+}
+header {
+    background-color: darkgreen;
+    color: white;
+}
+header img {
+    width: 99%;
+    margin: 10px;
+    border: 10px;
+    display: flex;
+    justify-content: center;
+}
+header a {
+    color: white;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+button {
+    padding: 0em;
+    margin: 0em;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    background-color: green;
+}
+article a img {
+    width: 10%;
+}
+article h2{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    margin: 0em;
+    padding: 10px;
+}
+article h3 {
+    font-size: 18px;
+}
+article a {
+    text-decoration: none;
+}
+.ajax p {
+    color: black;
+    font-size: 22px;
+}
+.ajax ol{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.ajax main img{
+    width: 30%;
+}
+.ajax main div:first-of-type{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.ajax main div:first-of-type img{
+    width: 20%;
+    float: right;
+}
+.ajax main div:nth-of-type(2){
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+.ajax main div:nth-of-type(2) img{
+    width: 20%;
+    margin: 20px;
+}
+.index article article {
+    display: flex;
+}
+.index article article a h2 {
+    width: 50%;
+}
+.index main section{
+    display: flex;
+    flex-direction: column;
+}
+.anderlecht p {
+    font-size: 22px;
+}
+.anderlecht a {
+    text-decoration: none;
+}
